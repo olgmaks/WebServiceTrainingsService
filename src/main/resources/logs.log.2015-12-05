@@ -1,0 +1,74 @@
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - User has been authorised successful[Role{id=3, name='manager'}, Role{id=2, name='user'}]
+INFO  UserService - method params : { id=0}
+INFO  UserService - User cannot be deleted
+INFO  UserService - method params : no params
+INFO  UserService - Get all users successful[User{id=1, fistName='John', lastName='Dow', email='dog@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@1e5a8d1a}, User{id=2, fistName='Tom', lastName='Smith', email='fsdf@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@4ae5b587}, User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@2ef0d87b}, User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@46148b50}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@6ec65521}]
+INFO  UserService - method params : { roleadmin }
+INFO  UserService - Users for role admin successfully found, users=[User{id=1, fistName='John', lastName='Dow', email='dog@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@1e5a8d1a}, User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@2ef0d87b}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@6ec65521}]
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - user login success : User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@46148b50}
+INFO  UserService - method params : { email=jik1449307784336@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName }
+INFO  UserService - Registration successfulUser{id=5, fistName='testFirstName', lastName='testLastName', email='jik1449307784336@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@4b252ad}
+INFO  UserService - method params : { id=2}
+INFO  UserService - User has been deleted successfully, User_ID = 2
+INFO  UserService - method params : { id=2}
+INFO  UserService - User cannot be deleted
+INFO  UserService - method params : { id=4}
+INFO  UserService - User has been deleted successfully, User_ID = 4
+INFO  UserService - method params : { id=4}
+INFO  UserService - User has been deleted successfully, User_ID = 4
+INFO  UserService - method params : { id="4}
+INFO  UserService - java.lang.NumberFormatException: For input string: ""4"
+ERROR UserService - java.lang.NumberFormatException: For input string: ""4"
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - authorization success guest
+INFO  UserService - method params : { id=0}
+INFO  UserService - method params : no params
+INFO  UserService - Get all users successful[User{id=1, fistName='John', lastName='Dow', email='dog@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@7be2f9f7}, User{id=2, fistName='Tom', lastName='Smith', email='fsdf@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@728906ab}, User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@214ff4c}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@3084d7a5}]
+INFO  UserService - method params : { roleadmin }
+INFO  UserService - Users for role admin successfully found, users=[User{id=1, fistName='John', lastName='Dow', email='dog@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@7be2f9f7}, User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@214ff4c}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@3084d7a5}]
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - invalid credentials : email=dog4@gmail.com, password=qwerty
+INFO  UserService - method params : { email=jik1449309085515@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName }
+INFO  UserService - Registration successfulUser{id=4, fistName='testFirstName', lastName='testLastName', email='jik1449309085515@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@49b3348b}
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - User has been authorised successful[Role{id=3, name='manager'}, Role{id=2, name='user'}]
+INFO  UserService - method params : { id=1}
+INFO  UserService - User has been deleted successfully, User_ID = 1
+INFO  UserService - method params : no params
+INFO  UserService - Get all users successful[User{id=2, fistName='Tom', lastName='Smith', email='fsdf@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@3ee0e6d2}, User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@1f52053e}, User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@41d63982}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@5759a792}]
+INFO  UserService - method params : { roleadmin }
+INFO  UserService - Users for role admin successfully found, users=[User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@1f52053e}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@5759a792}]
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - user login success : User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@41d63982}
+INFO  UserService - method params : { email=jik1449309172858@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName }
+INFO  UserService - Registration successfulUser{id=4, fistName='testFirstName', lastName='testLastName', email='jik1449309172858@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@24dcf6a9}
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - User has been authorised successful[Role{id=3, name='manager'}, Role{id=2, name='user'}]
+INFO  UserService - method params : { id=1}
+INFO  UserService - User cannot be deleted
+INFO  UserService - method params : no params
+INFO  UserService - Get all users successful[User{id=2, fistName='Tom', lastName='Smith', email='fsdf@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@3ee0e6d2}, User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@1f52053e}, User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@41d63982}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@5759a792}, User{id=4, fistName='testFirstName', lastName='testLastName', email='jik1449309172858@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@24dcf6a9}]
+INFO  UserService - method params : { roleadmin }
+INFO  UserService - Users for role admin successfully found, users=[User{id=3, fistName='test3', lastName='testLast3', email='dog3@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@1f52053e}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@5759a792}]
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - user login success : User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@41d63982}
+INFO  UserService - method params : { email=jik1449309509329@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName }
+INFO  UserService - Registration successfulUser{id=5, fistName='testFirstName', lastName='testLastName', email='jik1449309509329@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@4f9adb93}
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - User has been authorised successful[Role{id=3, name='manager'}, Role{id=2, name='user'}]
+INFO  UserService - method params : { id=3}
+INFO  UserService - User has been deleted successfully, User_ID = 3
+INFO  UserService - method params : no params
+INFO  UserService - Get all users successful[User{id=2, fistName='Tom', lastName='Smith', email='fsdf@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@3ee0e6d2}, User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@41d63982}, User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@5759a792}, User{id=4, fistName='testFirstName', lastName='testLastName', email='jik1449309172858@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@24dcf6a9}, User{id=5, fistName='testFirstName', lastName='testLastName', email='jik1449309509329@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@4f9adb93}]
+INFO  UserService - method params : { roleadmin }
+INFO  UserService - Users for role admin successfully found, users=[User{id=5, fistName='test5', lastName='testLast5', email='dog5@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@5759a792}]
+INFO  UserService - method params : { email=dog4@gmail.com, password=qwerty }
+INFO  UserService - user login success : User{id=4, fistName='test4', lastName='testLast4', email='dog4@gmail.com', password='qwerty', roles=[Lcom.epam.model.Role;@41d63982}
+INFO  UserService - method params : { email=jik1449309527485@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName }
+INFO  UserService - Registration successfulUser{id=5, fistName='testFirstName', lastName='testLastName', email='jik1449309527485@yandex.ru', password='qwerty', roles=[Lcom.epam.model.Role;@5f7e4f89}
+INFO  UserService - method params : { id=-1}
+INFO  UserService - method params : { id=hjkgt}
+INFO  UserService - java.lang.NumberFormatException: For input string: "hjkgt"
+ERROR UserService - java.lang.NumberFormatException: For input string: "hjkgt"

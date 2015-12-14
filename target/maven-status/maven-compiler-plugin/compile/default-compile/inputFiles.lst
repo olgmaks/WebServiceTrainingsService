@@ -1,0 +1,13 @@
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\model\Role.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\dao\UserDao.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\modelweb\SummaryFault.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\modelweb\SummarySuccess.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\modelweb\Summary.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\dao\RoleDao.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\web\faults\ValidationWebFault.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\model\User.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\bo\UserBO.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\web\service\UserService.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\web\service\UserServiceRS.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\modelweb\ResponseWrapper.java
+D:\workspace\OlehMaksymukService\src\main\java\com\epam\web\servicewsimpl\UserServiceImpl.java

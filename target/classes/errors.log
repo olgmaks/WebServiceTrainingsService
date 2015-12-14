@@ -1,0 +1,1 @@
+[http-bio-8080-exec-10] 04:12:45,938 ERROR com.epam.web.serviceimpl.UserServiceImpl.deleteUserById(UserServiceImpl.java:177) - java.lang.NumberFormatException: null

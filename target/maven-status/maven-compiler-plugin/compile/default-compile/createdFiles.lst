@@ -1,0 +1,13 @@
+com\epam\web\servicewsimpl\UserServiceImpl.class
+com\epam\dao\RoleDao.class
+com\epam\web\service\UserService.class
+com\epam\modelweb\ResponseWrapper.class
+com\epam\model\User.class
+com\epam\model\Role.class
+com\epam\web\service\UserServiceRS.class
+com\epam\modelweb\SummaryFault.class
+com\epam\dao\UserDao.class
+com\epam\bo\UserBO.class
+com\epam\modelweb\Summary.class
+com\epam\modelweb\SummarySuccess.class
+com\epam\web\faults\ValidationWebFault.class
